@@ -1,0 +1,62 @@
+.tituloPrincipalPersonagens{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 2.5em;
+    margin-top: 90px;
+    text-shadow: black 0.2em 0.2em 0.2em;
+}
+
+.conteudoPrincipalPersonagens {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgba(76, 76, 104, 0.589);
+    border-radius: 10px;
+    margin: 0 180px 0 180px;
+    padding: 20px;
+}
+
+.personagensFlex {
+    
+    width: 200px;
+    height: 300px;
+    border: 2px solid #2C0E37;
+    border-radius: 10px;
+    background-color: rgb(219, 150, 21);
+    padding: 20px;
+    text-align: center;
+}
+
+.personagensFlex:hover {
+    cursor: pointer;
+    color: white;
+    transition: 0.3s;
+    border: 2px solid white;
+    box-shadow: #2C0E37 0.2em 0.2em 0.2em 0.2em;
+}
+
+p {
+    font-weight: bold;
+}
+
+img {
+    width: 200px;
+    
+}
+
+
+
+#tanjiro {
+    background-color: #863841;
+}
+
+#zenitsu {
+    background-color: #ffa237;
+}
+
+#inosuke {
+    background-color: 	#16537e;
+}
+
