@@ -1,14 +1,108 @@
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
+html {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+body {
+    background-image: url(../img/imageBg.jpg);
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Cinzel Decorative', cursive;
+    
+    
+    
 }
 
 .cabecalhoPrincipal {
-    display: flex;
-    justify-content: center;
+    background-color: rgba(76, 76, 104, 0.329);
+    font-size: 1.5em;
+    position: fixed;
+    width: 100%;
 }
 
-.cabecalhoNav {
+.cabecalhoNavLink {
+    text-decoration: none;
+    padding: 8px;
+    margin-left: 50px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    display: block;
+    color: white;
+    
+}
+
+.container {
     display: flex;
+    justify-content: center;
+    
+}
+
+.conteudoPrincipal {
+    color: white;
+    font-size: 3.5em;
+    margin-top: 150px;
+    margin-bottom: 80px;
+    text-shadow: black 0.2em 0.2em 0.2em;
+}
+
+.play {
+    text-align: center;
+    margin-top: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a::before {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #2C0E37;
+    transition: 0.3s;
+}
+button:hover {
+    cursor: pointer;
+    color: #2C0E37;
+    transition: 0.3s;
+}
+
+button {
+    width: auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgba(76, 76, 104, 0.589);
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    color: white;
+    background-color: rgba(76, 76, 104, 0.329);
+    justify-content: center;
+    position:absolute;
+	bottom:0;
+	
+    padding: 15px;
+}
+
+@media (max-width: 750px) 
+{
+    .play {
+        padding: 5px;
+        font-size: 0.6em;
+    }
+
+    .titulo {
+        font-size: 1em;
+    }
+
 }
