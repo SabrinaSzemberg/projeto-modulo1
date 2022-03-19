@@ -1,6 +1,6 @@
 function tanjiroFaseI () {
     while (opcao != 1 || opcao != 2) {
-        var opcao = prompt (`Se, durante uma corrida de carros, você deixa o segundo colocado pra trás, qual é a sua colocação após a ultrapassagem?\n 1- Segundo colocado\n 2- Último colocado`);
+        var opcao = prompt (`Faça a sua escolha:\n 1- buscar ajuda para que Nezuko possa voltar a ser uma humana\n 2-deixa-la na casa até que um matador de demônios a encontre`);
 
         if (opcao == 1) {
             window.location.href = "../html/fase2.html";

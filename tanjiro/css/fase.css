@@ -1,5 +1,5 @@
 body {
-    background-image: url(../img/imageBg.jpg);
+    background-image: url('https://i.pinimg.com/originals/b1/d4/60/b1d460ed98ecb78923df9fadc0551289.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -8,7 +8,7 @@ body {
 }
 
 .cabecalhoPrincipal {
-    background-color: rgba(76, 76, 104, 0.329);
+    background-color: rgba(76, 76, 104, 0.877);
     font-size: 1.5em;
     position: fixed;
     width: 100%;
@@ -31,12 +31,26 @@ body {
     
 }
 
-.conteudoPrincipal {
+.boxTexto{
+    display: flex;
+    justify-content: center;
+    padding-left: 5%;
+    padding-right: 5%;}
+
+.texto {
+    
+    width: 90%;
+    align-items: center;
     color: white;
-    font-size: 3.5em;
-    margin-top: 150px;
-    margin-bottom: 50px;
-    text-shadow: black 0.2em 0.2em 0.2em;
+    background-color: rgba(76, 76, 104, 0.685);
+    font-size: 1.2em;
+    padding: 30px;
+    margin-top: 140px;
+    border-radius: 10px;
+}
+
+p::first-letter {
+    font-size: 1.5em;
 }
 
 .play {
@@ -65,10 +79,10 @@ button {
     padding: 20px;
     border-radius: 8px;
     color: white;
-    background-color: rgba(76, 76, 104, 0.589);
+    background-color: rgba(76, 76, 104, 0.685);
     font-family: 'Cinzel Decorative', cursive;
     font-weight: bold;
-    font-size: 0.8em;
+    font-size: 1.2em;
 }
 
 button:hover {
@@ -77,22 +91,7 @@ button:hover {
     transition: 0.3s;
 }
 
-footer {
-    display: flex;
-    width: 100%;
-    color: white;
-    background-color: rgba(76, 76, 104, 0.329);
-    justify-content: center;
-    position:absolute;
-	bottom:0;
-    padding: 15px;
-}
-
-.copy-h4 {
-    margin-left: 20%;
-}
-
-@media (max-width: 750px) 
+@media (max-width: 800px) 
 {
 
     .cabecalhoNavLink {
@@ -105,9 +104,10 @@ footer {
         font-size: 0.6em;
     }
 
-    .titulo {
-        font-size: 1em;
+    .texto {
+        font-size: 0.8em;
         justify-content: center;
+        margin-top: 90px;
     }
 
     footer {
