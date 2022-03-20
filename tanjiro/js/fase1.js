@@ -6,7 +6,7 @@ function tanjiroFaseI () {
             window.location.href = "../html/fase2.html";
             break;
         } else if (opcao == 2) {
-            window.location.href = "../html/game-over.html";
+            window.location.href = "./../html/game-over1.html";
             break;
         }else {
             alert (`Escolha a opção 1 ou 2`);
