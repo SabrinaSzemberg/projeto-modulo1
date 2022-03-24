@@ -1,6 +1,6 @@
 function zenitsuFaseI() {
     while (opcao != 1 || opcao != 2) {
-        var opcao = prompt ("1 - Cinco categorias\n 2 - Dez categorias");
+        var opcao = prompt ("1 - Shinosoku\n 2 - Rokuren");
 
         if (opcao == 1 ) {
             window.location.href = "./../html/game-over1.html";
