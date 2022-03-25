@@ -116,3 +116,19 @@ button:hover {
     }
 
 }
+
+@media (max-width: 700px) {
+
+    .cabecalhoNav{
+        flex-direction: column;
+        padding: 4px;
+        margin-right: 20px;
+        margin-bottom: 15px;
+        text-align: center;
+        font-size: 0.6em;
+    }
+
+    .texto {
+        margin-top: 180px;
+    }
+}

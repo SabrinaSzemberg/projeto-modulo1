@@ -20,3 +20,9 @@
 p::first-letter {
     font-size: 1.5em;
 }
+
+@media (max-width: 700px) {
+    .introducao {
+        margin-top: 50px;
+    }
+}
