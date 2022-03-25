@@ -91,6 +91,7 @@ footer {
 @media (max-width: 700px) {
 
     .cabecalhoPrincipal {
+        margin-top: 1px;
         font-size: 1.5em;
         position: absolute;
     }
@@ -105,7 +106,7 @@ footer {
     }
 
     .conteudoPrincipal {
-        padding-top: 50px;
+        padding-top: 60px;
     }
 
     .play {
