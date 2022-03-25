@@ -92,7 +92,7 @@ footer {
 
     .cabecalhoPrincipal {
         font-size: 1.5em;
-        position: fixed;
+        position: absolute;
     }
 
     .cabecalhoNav{

@@ -119,6 +119,11 @@ button:hover {
 
 @media (max-width: 700px) {
 
+    .cabecalhoPrincipal {
+        font-size: 1.5em;
+        position: absolute;
+    }
+
     .cabecalhoNav{
         flex-direction: column;
         padding: 4px;

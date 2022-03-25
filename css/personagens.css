@@ -60,6 +60,11 @@ img {
 
 @media (max-width: 700px) {
 
+    .cabecalhoPrincipal {
+        font-size: 1.5em;
+        position: absolute;
+    }
+
     .tituloPrincipalPersonagens {
         font-size: 2em;
         padding-top: 100px;
